@@ -7,12 +7,12 @@ const mySym = Symbol("key1")
 
 
 const JsUser = {
-    name: "Hitesh",
-    "full name": "Hitesh Choudhary",
+    name: "sarvgna",
+    "full name": "sarvgna bachchuwar",
     [mySym]: "mykey1",
     age: 18,
     location: "Jaipur",
-    email: "hitesh@google.com",
+    email: "sarvgna@google.com",
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
 }
@@ -22,9 +22,9 @@ const JsUser = {
 // console.log(JsUser["full name"])
 // console.log(JsUser[mySym])
 
-JsUser.email = "hitesh@chatgpt.com"
+JsUser.email = "sarvgna@chatgpt.com"
 // Object.freeze(JsUser)
-JsUser.email = "hitesh@microsoft.com"
+JsUser.email = "sarvgna@microsoft.com"
 // console.log(JsUser);
 
 JsUser.greeting = function(){
@@ -50,8 +50,8 @@ const regularUser = {
     email: "some@gmail.com",
     fullname: {
         userfullname: {
-            firstname: "hitesh",
-            lastname: "choudhary"
+            firstname: "sarvgna",
+            lastname: "bachchuwar"
         }
     }
 }
@@ -97,7 +97,7 @@ users[1].email
 const course = {
     coursename: "js in hindi",
     price: "999",
-    courseInstructor: "hitesh"
+    courseInstructor: "sarvgna"
 }
 
 // course.courseInstructor
@@ -108,7 +108,7 @@ const {courseInstructor: instructor} = course
 console.log(instructor);
 
 // {
-//     "name": "hitesh",
+//     "name": "sarvgna",
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
