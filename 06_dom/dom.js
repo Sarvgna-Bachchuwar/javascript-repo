@@ -13,7 +13,7 @@
 // </head>
 // <body class="bg-black">
 //     <div >
-//         <h1  id="title" class="heading">DOM learning on Chai aur code <span style="display: none;">test text</span></h1>
+//         <h1  id="title" class="heading">DOM learning <span style="display: none;">test text</span></h1>
 //         <h2>Lorem ipsum dolor sit.</h2>
 //         <h2>Lorem ipsum dolor sit.</h2>
 //         <h2>Lorem ipsum dolor sit.</h2>
@@ -36,7 +36,7 @@
 //     <meta charset="UTF-8">
 //     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 //     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-//     <title>DOM | Chai aur code</title>
+//     <title>DOM</title>
 // </head>
 // <body style="background-color: #212121; color: #fff;">
 //     <div class="parent">
@@ -76,7 +76,7 @@
 //     <meta charset="UTF-8">
 //     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 //     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-//     <title>Chai aur code </title>
+//     <title> code </title>
 // </head>
 // <body style="background-color: #212121; color: #fff;">
     
@@ -89,8 +89,8 @@
 //     div.setAttribute("title", "generated title")
 //     div.style.backgroundColor = "green"
 //     div.style.padding = "12px"
-//     // div.innerText = "Chai aur code"
-//     const addText = document.createTextNode("Chai aur code")
+//     // div.innerText = " code"
+//     const addText = document.createTextNode("code")
 //     div.appendChild(addText)
 
 //     document.body.appendChild(div)
@@ -103,7 +103,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chai aur code | DOM</title>
+    <title>code | DOM</title>
 </head>
 <body style="background-color: #212121; color: #fff;">
     <ul class="language">
